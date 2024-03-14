@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "TT Lakes Regular";
+    src: url("/src/fonts/TTLakes/TTLakes-Regular.eot");
+    src: local("TT Lakes Regular"), local("TTLakes-Regular"),
+      url("../src/fonts/TTLakes/TTLakes-Regular.eot") format("embedded-opentype"),
+      url("../src/fonts/TTLakes/TTLakes-Regular.woff") format("woff"),
+      url("../src/fonts/TTLakes/TTLakes-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "TT Lakes Medium";
+    src: url("/src/fonts/TTLakes/TTLakes-Medium.eot");
+    src: local("TT Lakes Regular"), local("TTLakes-Regular"),
+      url("../src/fonts/TTLakes/TTLakes-Medium.eot") format("embedded-opentype"),
+      url("../src/fonts/TTLakes/TTLakes-Medium.woff") format("woff"),
+      url("../src/fonts/TTLakes/TTLakes-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+body {
+    font-family: "TT Lakes Regular";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+} 
+.header {
+    border-top: 1px solid #D9FFF5;
+}
+.header__title {
+    color: #7E7E82;
+    text-transform: uppercase;
+}
+.main {
+    background-color: #f8f8f8;
+    padding-bottom: 30px;
+}
+.product {
+    list-style: none;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+    background-color: white
+}
+.product__website {
+    text-decoration: none;
+    min-width: 40px;
+    height: 40px;
+    border: 2px solid #ff3e79;
+    border-radius: 50%;
+}
